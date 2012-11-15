@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 joelsaltzman.com. All rights reserved.
 //  testing out code from http://robnapier.net/blog/wrapping-cppfinal-edition-759/comment-page-1#comment-16789
 
-#include <iostream>
+#include <string>
 
 namespace MY {
     class Cpp {

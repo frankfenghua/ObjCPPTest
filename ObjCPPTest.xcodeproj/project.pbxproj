@@ -33,6 +33,7 @@
 		38C9D444165593A200D9A8A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		38C9D44B165593AE00D9A8A1 /* Cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cpp.cpp; sourceTree = "<group>"; };
 		38C9D44F165593D000D9A8A1 /* CPPWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPWrapper.mm; sourceTree = "<group>"; };
+		38C9D4941655A14600D9A8A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		38C9D41F165593A200D9A8A1 = {
 			isa = PBXGroup;
 			children = (
+				38C9D4941655A14600D9A8A1 /* IOKit.framework */,
 				38C9D434165593A200D9A8A1 /* ObjCPPTest */,
 				38C9D42D165593A200D9A8A1 /* Frameworks */,
 				38C9D42B165593A200D9A8A1 /* Products */,
@@ -266,6 +268,8 @@
 		38C9D449165593A200D9A8A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjCPPTest/ObjCPPTest-Prefix.pch";
@@ -278,6 +282,8 @@
 		38C9D44A165593A200D9A8A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ObjCPPTest/ObjCPPTest-Prefix.pch";
