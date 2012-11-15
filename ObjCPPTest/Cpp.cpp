@@ -6,14 +6,11 @@
 //  Copyright (c) 2012 joelsaltzman.com. All rights reserved.
 //  testing out code from http://robnapier.net/blog/wrapping-cppfinal-edition-759/comment-page-1#comment-16789
 
-#include <string>
+#include "Cpp.h"
 
-//namespace MY {
-    class Cpp {
-    public:
-        std::string getName() { return _name; };
-        void setName(std::string aName) { _name = aName; };
-    private:
-        std::string _name;
-    };
-//}
+std::string Cpp::getName() {
+    return _name;
+}
+void Cpp::setName(std::string aName) {
+    _name = aName;
+}

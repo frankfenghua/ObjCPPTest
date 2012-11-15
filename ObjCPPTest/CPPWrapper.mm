@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 joelsaltzman.com. All rights reserved.
 //  testing out code from http://robnapier.net/blog/wrapping-cppfinal-edition-759/comment-page-1#comment-16789
 #import "CPPWrapper.h"
-#include "Cpp.cpp"
+#include "Cpp.h"
 
 @interface CPPWrapper ()
 @property (nonatomic, readwrite, assign) Cpp *cpp;

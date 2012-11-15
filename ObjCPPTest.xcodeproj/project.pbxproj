@@ -35,6 +35,7 @@
 		38C9D44F165593D000D9A8A1 /* CPPWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPWrapper.mm; sourceTree = "<group>"; };
 		38C9D4941655A14600D9A8A1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		38C9D4A01655A92C00D9A8A1 /* CPPWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPPWrapper.h; sourceTree = "<group>"; };
+		38C9D4A21655AC3D00D9A8A1 /* Cpp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cpp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 				38C9D441165593A200D9A8A1 /* JSAppDelegate.m */,
 				38C9D443165593A200D9A8A1 /* MainMenu.xib */,
 				38C9D435165593A200D9A8A1 /* Supporting Files */,
+				38C9D4A21655AC3D00D9A8A1 /* Cpp.h */,
 				38C9D44B165593AE00D9A8A1 /* Cpp.cpp */,
 				38C9D4A01655A92C00D9A8A1 /* CPPWrapper.h */,
 				38C9D44F165593D000D9A8A1 /* CPPWrapper.mm */,
