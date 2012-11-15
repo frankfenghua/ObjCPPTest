@@ -8,7 +8,7 @@
 
 #include <string>
 
-namespace MY {
+//namespace MY {
     class Cpp {
     public:
         std::string getName() { return _name; };
@@ -16,4 +16,4 @@ namespace MY {
     private:
         std::string _name;
     };
-}
+//}

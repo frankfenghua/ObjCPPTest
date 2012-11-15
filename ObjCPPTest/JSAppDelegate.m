@@ -12,7 +12,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    CPPWrapper *wrapper = [[CPPWrapper alloc] init];
+    wrapper.name = @"some name";
+    NSLog(@"name: %@", wrapper.name);
 }
 
 @end
