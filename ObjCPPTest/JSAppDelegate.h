@@ -7,6 +7,7 @@
 //  testing out code from http://robnapier.net/blog/wrapping-cppfinal-edition-759/comment-page-1#comment-16789
 
 #import <Cocoa/Cocoa.h>
+#import "CPPWrapper.h"
 
 @interface JSAppDelegate : NSObject <NSApplicationDelegate>
 
